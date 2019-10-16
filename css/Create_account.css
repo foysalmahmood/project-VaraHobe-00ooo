@@ -1,0 +1,74 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(../log.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	font-family: Century Gothic;
+}
+
+.box {
+	width: 320px;
+	height: 512px;
+	background-color: #000;
+	color: #fff;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 70%;
+	padding: 70px 30px;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+.reg_img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50%);
+}
+
+h1 {
+	margin: 0;
+	padding: 0 0 3rem;
+	text-align: center;
+	font-size: 1.8rem;
+}
+
+.box input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.box input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"] {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background-color: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.box input[type="submit"] {
+	border: none;
+	outline: none;
+	height: 40px;
+	background-color: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	transition: 0.4s ease;
+}
+
+.box input[type="submit"]:hover {
+	cursor: pointer;
+	background-color: #ffc107;
+	color: #000;
+}
